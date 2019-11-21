@@ -37,12 +37,18 @@ const tables = {
           "y": 10.57,
           "drilldown": "not attended"
         }
+        
       ]
     }],
     "drilldown": {
       "series": [{
           "name": "Attended",
           "id": "attended",
+          "data": []
+        },
+        {
+          "name": "Not Attended",
+          "id": "not attended",
           "data": []
         },
         {

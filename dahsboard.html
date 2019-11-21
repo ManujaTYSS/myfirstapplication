@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+    <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+   
+<link rel="stylesheet" href="./bar.css">
+<link rel="stylesheet" href="./dashboard.css">
+<link rel="stylesheet" href="./requirementSkillwise.css">
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/drilldown.js"></script>
+
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="#">
+            <img src="https://cdn1.iconfinder.com/data/icons/business-seo-vol-4/512/1-38-512.png" width="30" height="30"
+                class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/" *ngIf="service.isLoggedIn">Job Openings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/" *ngIf="service.isLoggedIn">Candidates</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/" *ngIf="service.isLoggedIn">Interview</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="row col-md-12">
+        <div class="col-md-4 " id="first">
+
+            <figure class="highcharts-figure">
+                
+                <!-- <a href="./req.html"><div id="container"></div></a> -->
+                <div id="container"></div>
+                <div style="text-align: right">
+                    <button id="plain">Plain</button>
+                    <button id="inverted">Inverted</button>
+                    <button id="polar">Polar</button>
+                </div>
+            </figure>
+        </div>
+
+        <div class="col-md-4 ">
+            <figure class="highcharts-figure">
+                <div id="container1">
+
+                </div>
+            </figure>
+        </div>
+
+
+    </div>
+    <div class="row col-md-12" id="second">
+
+        <div class="col-md-4 " id="row2" >
+            <div id="container2" style="height: 300px; width: 100%;"></div>
+        </div>
+
+
+        <div class="col-md-4 " style="margin-top: 51px">
+                <a href="./bar1.html"><div id="chartdiv" style="margin-top: 60px;margin-left:40px"></div></a>
+                <script src="./date.js"></script>
+        </div>
+    </div>
+
+    <div class="row col-md-12" id="Third">
+    <div class=" col-md-4 " style="margin-top: 66px;margin-left:139px">
+            <div id="tsv" style="display:none">
+             Sourcing : Attended and NotAttended
+                     
+                   </div>
+                   <div id="containerPie" ></div>
+        </div>
+        <div class="col-md-4 " style="margin-top: 66px;margin-left: 140px;">
+            <a href="./pchart.html"><div id="container3"></div></a> 
+        </div>
+
+    </div>
+        
+
+
+
+
+    <script src="./dashboard.js"></script>
+    <script src="./requirementSkillwise.js"></script>
+    <script src="./date.js"></script>
+    <script src="./yoe.js"></script>
+    <script src="./piechart.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="./pct.js"></script>
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+</body>

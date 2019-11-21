@@ -1,7 +1,7 @@
 //create table
 const tables = {
-    'attended': document.getElementById('attended'),
-    'not attended': document.getElementById('not attended')
+    'JAVAFullStack': document.getElementById('JAVAFullStack'),
+    'MEANSTACK': document.getElementById('MEANSTACK')
   }
 
 // Create the chart
