@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./pchart.css">
+</head>
+<body>
+    
+        <div id="container" style="min-width: 310px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+        
+        <table class="drilldown-table" id="attended">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Company</th>
+              <th>F/E</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Manu</th>
+              <td>test yantra</td>
+              <td>F<td>
+            </tr>
+            <tr>
+              <th>Pushpa</th>
+              <td>tcs</td>
+              <td>F</td>
+            </tr>
+            <tr>
+              <th>Yamini</th>
+              <td>cognizant</td>
+              <td>F</td>
+            </tr>
+            <tr>
+              <th>Bharathi</th>
+              <td>Testyantra</td>
+              <td>E</td>
+            </tr>
+            <tr>
+              <th>Farath</th>
+              <td>infosis</td>
+              <td>E</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="drilldown-table" id="not attended">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Company</th>
+              <th>F/E</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Archana</th>
+              <td>cignity</td>
+              <td>F</td>
+            </tr>
+            <tr>
+              <th>Anusha</th>
+              <td>Wipro</td>
+              <td>E</td>
+            </tr>
+            <tr>
+              <th>Thanu</th>
+              <td>Techno Tree</td>
+              <td>F</td>
+            </tr>
+          </tbody>
+        </table>   
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="./pchart.js"></script>
+</body>
+</html>
